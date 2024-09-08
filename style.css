@@ -1,5 +1,14 @@
 
 .my-content-container {
     display: flex;
-    direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.my-content-container .my-content-text {
+    flex-basis: 400px;
+    flex-grow: 2;
+}
+.my-content-container .my-content-img {
+    flex-basis: 400px;
+    flex-grow: 1;
 }
