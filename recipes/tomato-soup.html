@@ -7,7 +7,7 @@
         <title>Odin Recipes</title> 
         <!-- Bootstrap CSS --> 
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <!-- Custom CSS --> 
-        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="/style.css"> 
     </head> 
     <body> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
@@ -15,26 +15,32 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
                 <span class="navbar-toggler-icon"></span> 
             </button> 
-            <ul class="navbar-nav"> 
-                <li class="nav-item active"> 
-                    <a class="nav-link" target="_self" href="/index.html">Recipes
-                    </a> 
-                </li> 
-                <li class="nav-item"> 
-                    <a class="nav-link" target="_self" href="https://okkeun.github.io/okkeuns-portfolio-site/">Portfolio website</a> 
-                </li> 
-                <li class="nav-item"> 
-                    <a class="nav-link" target="_self" href="https://github.com/Okkeun/odin-recipes">GitHub repository</a> 
-                </li> 
-            </ul> 
+            <div class="collapse navbar-collapse" id="navbarNav"> 
+                <ul class="navbar-nav"> 
+                    <li class="nav-item active"> 
+                        <a class="nav-link" target="_self" href="/index.html">Recipes
+                        </a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a class="nav-link" target="_blank" href="https://okkeun.github.io/okkeuns-portfolio-site/">Portfolio website</a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a class="nav-link"  target="_blank" href="https://github.com/Okkeun/odin-recipes">GitHub repository</a> 
+                    </li> 
+                </ul> 
             </div> 
         </nav> 
         <div class="container text-center"> 
             <h1>Tomato soup with pasta</h1> 
-            <a class="" href="#">-</a> </br>
-            <a class="" href="#">-</a> </br>
-            <a class="" href="#">-</a> 
-        </div> <!-- Bootstrap JS + jQuery --> 
+            <p class="text-default">This recipe is not mine. Original source:</p>
+            <a href="https://kuchniaani.pl/zupa-pomidorowa-bez-miesa/">Kuchnia Ani</a></br></br>
+        </div class="my-content-container"> 
+        <div class="container row justify-content-center">
+            <div class="col-xs-8" style="background-color: blue;"></div>
+            <div class="col-xs-4" style="height: 100px; background-color: rgb(255, 174, 0);"></div>
+        </div>
+
+        </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script> 
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
