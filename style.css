@@ -4,11 +4,20 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-.my-content-container .my-content-text {
+.my-content-container > .my-content-text {
     flex-basis: 400px;
     flex-grow: 2;
+    order: 2;
 }
 .my-content-container .my-content-img {
-    flex-basis: 400px;
+    overflow: hidden;
+    flex-basis: 200px;
     flex-grow: 1;
+    order: 1;
+    height: 400px;
+}
+.my-content-container > .my-content-img > img {
+    position: relative;
+    width: 100%;
+    display: block;
 }
