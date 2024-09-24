@@ -40,3 +40,16 @@ h3 {
 .recipe-desc {
     text-align: justify;
 }
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-upper {
+    background-color: antiquewhite;
+}
+.footer-bottom {
+    background-color: gray;
+}
