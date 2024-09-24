@@ -41,14 +41,26 @@ h3 {
     text-align: justify;
 }
 
+footer {
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+}
+
 .footer-flex {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+.footer-flex p {
+    margin: 0.5em auto 0.5em auto;
+}
 
 .footer-upper {
     background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-bottom {
     background-color: gray;
