@@ -26,3 +26,15 @@ body {
     width: 100%;
     display: block;
 }
+
+article {
+    margin: 2em;
+}
+
+h3 {
+    padding-top: 0.5em;
+}
+
+.recipe-desc {
+    text-align: justify;
+}
