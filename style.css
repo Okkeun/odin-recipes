@@ -1,5 +1,7 @@
-body {
-    
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 .my-content-container {
