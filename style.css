@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .my-content-container {
     display: flex;
     flex-direction: row;
@@ -42,8 +48,9 @@ h3 {
 }
 
 footer {
-    position: fixed; 
-    bottom: 0; 
+    position: relative;
+    margin-top: auto;
+    margin-bottom: 0;
     width: 100%;
 }
 
