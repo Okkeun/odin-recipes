@@ -28,12 +28,12 @@ body {
 .my-content-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     box-shadow: var(--shadow-small);
+    align-items: stretch;
 }
 .my-content-container > .my-content-text {
-    flex: 2 1 0;
-    min-width: 300px;
+    flex: 2;
     background-color: var(--little-darker-color);
 }
 .my-content-container > .my-content-text > h2 {
@@ -42,16 +42,16 @@ body {
     color: var(--light-color);
 }
 .my-content-container .my-content-img {
-    flex: 1 1 0;
+    flex: 1;
     overflow: hidden;
-    min-width: 300px;
+    position: relative;
 }
 .my-content-container > .my-content-img > img {
-    position: relative;
-    height: 100%;
-    width: 100%;
+    position: absolute;
     display: block;
     object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 article {
