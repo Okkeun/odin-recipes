@@ -28,7 +28,7 @@ body {
 .my-content-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     box-shadow: var(--shadow-small);
     align-items: stretch;
 }
@@ -43,6 +43,8 @@ body {
 }
 .my-content-container .my-content-img {
     flex: 1;
+    min-width: 200px;
+    min-height: 200px;
     overflow: hidden;
     position: relative;
 }
